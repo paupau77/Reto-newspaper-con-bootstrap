@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Reto bootstrap - mi Newspaper</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="CSS/estilosindex.css" />
+</head>
+<body class="bg-light">
+  <div class="barra-superior">Call & WhatsApp: +91-9820771733</div>
+  <header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <span class="logo-ndtv">NDTV</span>
+        <span class="logo-mundo">WORLD</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contenido-navegacion" aria-controls="contenido-navegacion" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="contenido-navegacion">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-4">
+          <li class="nav-item"><a class="nav-link" href="index.html">Noticias Mundiales</a></li>
+          <li class="nav-item"><a class="nav-link" href="trending.html">Tendencias</a></li>
+          <li class="nav-item"><a class="nav-link" href="categories.html">Categorías</a></li>
+          <li class="nav-item"><a class="nav-link" href="community.html">Comunidad</a></li>
+        </ul>
+        <form class="formulario-busqueda d-flex align-items-center" role="search" onsubmit="return false;">
+          <input class="entrada-busqueda form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" />
+          <button class="boton-busqueda btn btn-outline-light me-3" type="submit">🔍</button>
+        </form>
+        <button class="boton-suscribirse btn btn-danger">Suscribirse</button>
+      </div>
+    </div>
+  </nav>
+  </header>
+  <div class="container my-4">
+    <div class="row">
+      <main class="col-lg-7">
+        <nav aria-label="breadcrumb" class="mb-2">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">News</a></li>
+            <li class="breadcrumb-item active" aria-current="page">World News</li>
+          </ol>
+        </nav>
+        <p class="texto-muted">23 July 2024</p>
+        <h3 class="texto-fuerte mb-3">What Trump Said On Secret Service's Plan Ahead Of Assassination Attempt:</h3>
+        <img src="CSS/Imagenes/Trumpcentro.jpg" alt="Trump and security" class="imagen-fluida rounded mb-3" />
+        <section class="seccion mb-4">
+          <h5 class="titulo-seccion fw-semibold">Before The Incident:</h5>
+          <p>Donald Trump who was addressing a gathering in Pennsylvania was attacked by a gunman who shot at Trump. The bullet narrowly missed his rear head and grazed past his ear. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor</p>
+        </section>
+        <section class="seccion mb-4">
+          <h5 class="titulo-seccion fw-semibold">Message Delivered:</h5>
+          <p>Trump said that he wanted to deliver a message to two key sections of the people. He said that he wanted to firstly, assure his supporters and those who had gathered at the venue that he was all right. He also wanted them to know that America shall move forward and they are strong. Secondly, he said that history would judge this event and the image that was clicked of him. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi minus quos commodi eveniet. Alias in officia accusamus odit quidem sit sequi deserunt ducimus quod nam, nisi natus minus asperiores molestiae!</p>
+        </section>
+        <section class="seccion mb-4">
+          <h5 class="titulo-seccion fw-semibold">After The Secret Service's Failed Security:</h5>
+          <p>The Secret Service chief's admission to the lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi minus quos commodi eveniet. Alias in officia accusamus odit quidem sit sequi deserunt ducimus quod nam, nisi natus minus asperiores molestiae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi minus quos commodi eveniet. Alias in officia accusamus odit quidem sit sequi deserunt ducimus quod nam, nisi natus minus asperiores molestiae!</p>
+        </section>
+        <section class="seccion mb-4">
+          <h5 class="titulo-seccion fw-semibold">Biden Called Me:</h5>
+          <p>In his interview with Fox News, Mr Trump talked about his conversation with US President Joe Biden, who said, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque facilis optio in ducimus amet harum voluptatibus sunt saepe sed maxime! Iste cupiditate inventore assumenda aut adipisci earum doloribus, quaerat soluta?</p>
+        </section>
+      </main>
+      <aside class="col-lg-5">
+        <h5 class="titulo-fuerte mb-3">Trending Headlines</h5>
+        <div class="barra-lateral-scroll mb-4">
+          <div class="bloque-tendencia mb-3">
+            <img src="CSS/Imagenes/flood.jpg" alt="Flood" class="imagen-tendencia" />
+            <p class="texto-chico">Widespread rains | Flood waters recede in Gujarat. Damages: roads washed out, homes damaged, deaths reported. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti odit fugit, quibusdam quasi voluptates quia eius, recusandae culpa enim sit praesentium nobis nam corporis perspiciatis eligendi, earum commodi! Et, voluptate?</p>
+          </div>
+          <div class="bloque-tendencia mb-3">
+            <img src="CSS/Imagenes/fire.jpg" alt="Fire" class="imagen-tendencia" />
+            <p class="texto-chico">Massive fire breaks out in industrial area. Firefighters struggle to contain blaze amid strong winds. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora fuga doloribus at dignissimos culpa dicta esse saepe cupiditate autem expedita voluptatem ut, voluptatibus, suscipit eius officia corporis? Voluptatibus, veniam voluptatum?</p>
+          </div>
+          <div class="bloque-tendencia mb-3">
+            <img src="CSS/Imagenes/ocean.jpg" alt="Ocean" class="imagen-tendencia" />
+            <p class="texto-chico">Marine life experts warn of rising sea temperatures affecting coral reefs and Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis veritatis repudiandae adipisci eos saepe provident libero sit, eius soluta aperiam perferendis delectus dolore nihil suscipit doloribus, molestiae eaque reprehenderit rerum!</p>
+          </div>
+          <div class="bloque-tendencia mb-3">
+            <img src="CSS/Imagenes/sports.jpg" alt="Sports" class="imagen-tendencia" />
+            <p class="texto-chico">Local sports team wins championship after thrilling final match. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem accusamus sunt cumque hic, saepe facere reprehenderit possimus corporis dolor labore in, a est asperiores inventore deleniti! Tempore a sit sed!</p>
+          </div>
+          <div class="bloque-tendencia mb-3">
+            <img src="CSS/Imagenes/cevento.jpg" alt="Cultural Event" class="imagen-tendencia" />
+            <p class="texto-chico">Annual cultural festival attracts thousands, celebrating Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque dignissimos nemo ut tempora eligendi architecto perferendis inventore eaque natus, eum veniam sint sit libero blanditiis totam autem quos exercitationem illo.</p>
+          </div>
+          <div class="bloque-tendencia mb-3">
+            <img src="CSS/Imagenes/eventooo.jpg" alt="Community Event" class="imagen-tendencia" />
+            <p class="texto-chico">Community cleanup drive sees high participation, improving Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat quaerat explicabo ex modi! Enim quisquam ipsam tenetur at, adipisci eum deserunt? Dicta enim, odit labore ea sequi quidem consequuntur quasi.</p>
+          </div>
+        </div>
+        <h5 class="titulo-fuerte mb-3">Gallery</h5>
+        <div class="imagenes-laterales">
+          <img src="CSS/Imagenes/1.jpg" alt="1" />
+          <img src="CSS/Imagenes/2.jpg" alt="2" />
+          <img src="CSS/Imagenes/3.jpg" alt="3" />
+          <img src="CSS/Imagenes/4.jpg" alt="4" />
+          <img src="CSS/Imagenes/5.jpg" alt="5" />
+        </div>
+      </aside>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2024 NDTV World. All rights reserved.</p>
+  </footer>
+</body>
+</html>

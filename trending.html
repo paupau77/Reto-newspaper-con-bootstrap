@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NDTV Tendencias</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="CSS/estilosindex.css" />
+</head>
+<body class="bg-light">
+  <div class="barra-superior">Call & WhatsApp: +91-9820771733</div>
+  <header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <span class="logo-ndtv">NDTV</span>
+        <span class="logo-mundo">WORLD</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contenido-navegacion" aria-controls="contenido-navegacion" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="contenido-navegacion">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-4">
+          <li class="nav-item"><a class="nav-link" href="index.html">Noticias Mundiales</a></li>
+          <li class="nav-item"><a class="nav-link active" href="trending.html">Tendencias</a></li>
+          <li class="nav-item"><a class="nav-link" href="categories.html">Categorías</a></li>
+          <li class="nav-item"><a class="nav-link" href="community.html">Comunidad</a></li>
+        </ul>
+        <form class="d-flex align-items-center" role="search" onsubmit="return false;">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" />
+          <button class="btn btn-outline-light me-3" type="submit">🔍</button>
+        </form>
+        <button class="btn btn-danger">Suscribirse</button>
+      </div>
+    </div>
+  </nav>
+  </header>
+  <div class="container my-4">
+    <h2 class="mb-4">Noticias en Tendencia</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="tarjeta-comunidad h-100 d-flex flex-column">
+          <details>
+            <summary>
+              <img src="CSS/Imagenes/lluv.jpg" alt="Inundaciones por lluvias" />
+              <h5>Lluvias intensas causan inundaciones en Córdoba</h5>
+              <p>Las aguas de inundación retroceden, pero se reportan daños en carreteras y hogares, con algunas víctimas.</p>
+              <span class="boton-ver-mas">
+                <span class="mas">Ver más...</span>
+                <span class="menos">Ver menos...</span>
+              </span>
+            </summary>
+            <p class="texto-completo">Las lluvias torrenciales de los últimos días provocaron el desbordamiento de varios ríos. Equipos de emergencia continúan trabajando en la zona para asistir a los afectados y restablecer los servicios básicos.</p>
+          </details>
+        </div>
+      </div>
+      <div class="col">
+        <div class="tarjeta-comunidad h-100 d-flex flex-column">
+          <details>
+            <summary>
+              <img src="CSS/Imagenes/incpqind.jpg" alt="Incendio Industrial" />
+              <h5>Gran incendio estalla en zona industrial</h5>
+              <p>Bomberos luchan contra vientos fuertes para contener el fuego y evitar que se propague a zonas cercanas.</p>
+              <span class="boton-ver-mas">
+                <span class="mas">Ver más...</span>
+                <span class="menos">Ver menos...</span>
+              </span>
+            </summary>
+            <p class="texto-completo">El incendio, que comenzó en una fábrica química, fue controlado tras varias horas. No se reportaron víctimas fatales, pero varias personas fueron hospitalizadas por inhalación de humo.</p>
+          </details>
+        </div>
+      </div>
+      <div class="col">
+        <div class="tarjeta-comunidad h-100 d-flex flex-column">
+          <details>
+            <summary>
+              <img src="CSS/Imagenes/tempmar.jpg" alt="Vida Marina" />
+              <h5>Expertos marinos advierten sobre aumento de temperaturas en el mar</h5>
+              <p>Los arrecifes de coral y las pesquerías están en peligro debido a los cambios climáticos que afectan la temperatura oceánica.</p>
+              <span class="boton-ver-mas">
+                <span class="mas">Ver más...</span>
+                <span class="menos">Ver menos...</span>
+              </span>
+            </summary>
+            <p class="texto-completo">El calentamiento global está elevando la temperatura de los océanos, poniendo en riesgo ecosistemas enteros y la economía de las comunidades costeras.</p>
+          </details>
+        </div>
+      </div>
+      <div class="col">
+        <div class="tarjeta-comunidad h-100 d-flex flex-column">
+          <details>
+            <summary>
+              <img src="CSS/Imagenes/eqlocal.jpg" alt="Campeonato Deportivo" />
+              <h5>Equipo local gana campeonato</h5>
+              <p>Un emocionante partido final lleva a una histórica victoria para el equipo local.</p>
+              <span class="boton-ver-mas">
+                <span class="mas">Ver más...</span>
+                <span class="menos">Ver menos...</span>
+              </span>
+            </summary>
+            <p class="texto-completo">La afición celebró la victoria en las calles y se espera una recepción oficial para los jugadores en el ayuntamiento.</p>
+          </details>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2024 NDTV World. All rights reserved.</p>
+  </footer>
+</body>
+</html>
